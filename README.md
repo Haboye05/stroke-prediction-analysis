@@ -18,8 +18,6 @@ A machine learning project that predicts the likelihood of stroke occurrence bas
  ┗ 📄 README.md
 
 
-
- 
 📌 Overview
 This project leverages machine learning to assess stroke risk based on patient features like:
 
@@ -31,8 +29,6 @@ Lifestyle features (e.g., work type, smoking status)
 
 
 
-
-
 🔬 Dataset
 Source: Stroke Prediction Dataset (Kaggle)
 
@@ -41,8 +37,6 @@ Target Variable: stroke (1 = stroke occurred, 0 = no stroke)
 Missing Values: Handled in bmi via mean imputation
 
 Categorical Features: Encoded using LabelEncoder and one-hot encoding
-
-
 
 
 
@@ -84,7 +78,6 @@ IQR-based outlier detection
 GridSearchCV for hyperparameter tuning
 
 Stratified Train-Test Split
-
 
 
 
